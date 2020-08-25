@@ -1,0 +1,27 @@
+{
+  "name": "franz-api",
+  "version": "0.0.1",
+  "description": "franz api heh",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "morgan": "^1.10.0",
+    "helmet": "^4.1.0",
+    "mongoose": "^5.9.29",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0"
+  },
+  "engines": {
+    "node": "6.x"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api"
+  ],
+  "license": "MIT"
+}
